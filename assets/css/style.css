@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Configuración de menú para animación sobre enlaces*/
+.navbar-brand{
+    font-family: 'Zen Dots', cursive;
+}
+.body{
+    background-color: #F3F3F3;
+}
+.navbar li {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    margin-right: 1.5rem;
+ }
+
+ .navbar li a {
+    color:#000000;
+    transition: transform 0.5s;
+ }
+
+ .navbar li a:hover{
+    transform: scale(1.5);
+ }
+
+ @media (max-width:767px){    
+     .navbar li a:hover{
+        transform: none;
+     }
+ }
+/*Fin configuración de menú para animación sobre enlaces*/
+
+/*Configuración pie de pagina*/
+.text_footer{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(132, 132, 132);
+}
+
+/*Fin de Configuración pie de pagina*/
+
+/*Configuración inicio*/
+
+/*Fin Configuración inicio*/
