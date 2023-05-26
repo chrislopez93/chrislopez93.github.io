@@ -1,98 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-brand{
-    font-family: 'Zen Dots', cursive;
+.navbar-brand {
+  font-family: "Zen Dots", cursive;
 }
-.body{
-    background-color: #F3F3F3;
+.body {
+  background-color: #f3f3f3;
 }
 
 /*Configuración de menú para animación sobre enlaces*/
 .navbar li {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 1.2rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
- }
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
 
- .navbar li a {
-    color:#000000;
-    transition: transform 0.5s;
- }
+.navbar li a {
+  color: #000000;
+  transition: transform 0.5s;
+}
 
- .navbar li a:hover{
-    transform: scale(1.5);
- }
+.navbar li a:hover {
+  transform: scale(1.5);
+}
 
- @media (max-width:767px){    
-     .navbar li a:hover{
-        transform: none;
-     }
- }
+@media (max-width: 767px) {
+  .navbar li a:hover {
+    transform: none;
+  }
+}
 /*Fin configuración de menú para animación sobre enlaces*/
 
 /*Configuración pie de pagina*/
-.text_footer{
-    font-size: 0.9rem;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(132, 132, 132);
+.text_footer {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(132, 132, 132);
 }
 
 /*Fin de Configuración pie de pagina*/
 
 /*Configuración inicio y portafolio*/
-.card-title-presentation-h1, .card-title-porfolio-h1, 
-.card-title-experience-h1, .card-title-academic-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    text-transform: uppercase;
+.portrait-container {
+  border-radius: 50%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.portrait {
+  transition: transform 0.2s ease-in;
+}
+
+.portrait:hover {
+  transform: scale(1.05) translateY(-1%);
+}
+
+.card-title-presentation-h1,
+.card-title-porfolio-h1,
+.card-title-experience-h1,
+.card-title-academic-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+@media (max-width: 575px) {
+  .card-title-porfolio-h1 {
     font-size: 3rem;
+  }
 }
 
-@media (max-width:575px){    
-    .card-title-porfolio-h1{
-        font-size: 3rem;
-    }
+.card-title-card {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.card-title-card{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-
-.card-text-presentation, .card-text-porfolio, .intro, 
-.card-text-experience, .card-text-academic{
-    font-family: 'Montserrat', sans-serif;
-    text-align:justify;
-    font-size: 1em;
+.card-text-presentation,
+.card-text-porfolio,
+.intro,
+.card-text-experience,
+.card-text-academic {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 1em;
 }
 /*Fin Configuración inicio y portafolio*/
 
 /*Configuración portafolio*/
 
-
-.link-porfolio{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+.link-porfolio {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
-.card-porfolio{
-    width: 18rem;
+.card-porfolio {
+  width: 18rem;
 }
 /*Fin Configuración portafolio*/
 
-.footer_title{
-    font-family: 'Montserrat', sans-serif;
+.footer_title {
+  font-family: "Montserrat", sans-serif;
 }
 
 footer ul li {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
