@@ -1,0 +1,108 @@
+    *{ 
+      margin:0px;
+      padding: 0px;
+      border: 0px;
+    }
+
+    body{
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .logo{
+      margin-left: 20px;
+      height:25px;
+      width: 86px;
+    }
+    .button{
+      height:42px;
+      width:59px;
+      
+    }
+    .col-xs-12{
+      margin-top:0.938rem;
+      margin-bottom: 0.938rem;
+    }
+
+    .card-title{
+      margin-top: 12px;
+      font-size: 20px;
+      text-align: left;
+    }
+    .card-text{
+      font-size: 16px;
+    }
+    .location{
+      list-style:none;
+      margin: 0;
+      padding: 0;
+    }
+    hr{
+      height: 0.3px;
+    }
+    i{
+      width: 9.2px;
+      height: 6.13px;
+      }
+      .higher-price{
+        font-size: 16px;
+        color: #707070;
+        font-weight: light;
+      }
+    .lower-price{
+      font-size: 20px;
+      font-weight: medium;
+      margin-left: 11px;
+      color: #28A745;
+
+    }
+    .product-type{
+      font-weight: 300;
+      font-size: 1em;
+      color:#707070;
+    }
+    .address{
+      font-weight: 300;
+      font-size: 0.813em;
+      color:#707070;
+    }
+    figure{
+      margin: 0%;
+      padding: 0%;
+    }
+
+    .form-tittle{
+      text-align: center;
+      margin-top: 25px;
+      color: #FFFFFF;
+      font-size: 21px;
+      font-weight: 500;
+    }
+
+    .form{
+      background-color: #28A745;
+      padding-top: 5px;
+    }
+
+    .btn-primary{
+      background-color:#F8F9FA;
+      border: 1px solid #DDDDDD;
+      border-radius: 4px 4px 4px 4px;
+      color: #212529;
+      height: 40px;
+      width: 122.71px;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+    .footer_text{
+      text-align: center;
+      font-size: 16px;
+      font-weight: 300;
+      color:#707070;
+      padding: 10px;
+    }
