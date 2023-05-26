@@ -45,7 +45,8 @@
 /*Fin de Configuración pie de pagina*/
 
 /*Configuración inicio y portafolio*/
-.card-title-presentation-h1, .card-title-porfolio-h1, .card-title-experience-h1{
+.card-title-presentation-h1, .card-title-porfolio-h1, 
+.card-title-experience-h1, .card-title-academic-h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
@@ -61,10 +62,12 @@
 .card-title-card{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 
-.card-text-presentation, .card-text-porfolio, .intro, .card-text-experience{
+.card-text-presentation, .card-text-porfolio, .intro, 
+.card-text-experience, .card-text-academic{
     font-family: 'Montserrat', sans-serif;
     text-align:justify;
     font-size: 1em;
