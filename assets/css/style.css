@@ -44,7 +44,7 @@
 
 /*Fin de Configuración pie de pagina*/
 
-/*Configuración inicio*/
+/*Configuración inicio y portafolio*/
 .card-title-presentation{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -52,13 +52,17 @@
     font-size: 4rem;
 }
 
-.card-text-presentation{
+.card-text-presentation, .card-text-porfolio{
     font-family: 'Montserrat', sans-serif;
     text-align:justify;
     font-size: 1rem;
 }
-/*Fin Configuración inicio*/
+/*Fin Configuración inicio y portafolio*/
 
 /*Configuración portafolio*/
+.main-porfolio{
+    max-width: 80%;
+    background-color: red;
+}
 
 /*Fin Configuración portafolio*/
