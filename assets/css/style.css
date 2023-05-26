@@ -86,7 +86,12 @@
 .card-porfolio{
     width: 18rem;
 }
-
 /*Fin Configuración portafolio*/
 
-/*Configuración Experiencia*/
+.footer_title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li {
+    list-style: none;
+}
