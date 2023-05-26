@@ -1,0 +1,137 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body{
+    background-color: black; 
+    font-family: 'Raleway', sans-serif;
+    Letter-spacing: 0px; 
+    color: #FFFFFF;
+}
+
+nav{
+    width: 1280px; 
+    height: 73px; 
+    background-color: transparent;}
+
+h1{
+    font-size: 3.125rem; 
+    margin-top: 7px; 
+    text-transform: uppercase;
+}
+.tittle{
+    margin: auto; height: 59px; width: 221px; text-align: left;}
+
+header{
+    background-image: url(/assets/img/desafio3bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    height: 45.438rem;
+    width: 80rem;
+}
+
+main{
+    display: flex; 
+    justify-content: space-around; 
+    width: 1280px; 
+    height: 348px;}
+.main_paragraph_conteiner{
+    width: 475px; 
+    height: 197px; 
+    margin:auto;}
+.main_paragraph{
+    font-family: Raleway; 
+    font-weight: 300;}
+.main_pic{
+    margin: auto;}
+.iguana_pic1{
+    width: 24.938rem; 
+    height: 14.813rem; 
+    margin: auto;}
+
+.characteristics{
+    background-color: #1E1A13; 
+    height: 348px; 
+    width: 1280px; 
+    text-align: center;}
+.characteristics_tittle{
+    margin: auto;
+    padding-top: 75px;
+}
+
+h2{font-size: 2.5rem;  
+    font-family: Raleway;
+    font-weight:500;
+    text-transform: uppercase;} 
+
+.fa_icons{
+    display: flex; 
+    justify-content: space-around; 
+    gap:20px; 
+    margin-top: 50px;
+}
+
+.third_eye{
+    margin-left: 226px;}
+.fa-regular{
+    font-size: 3.75rem;
+    margin-top: 23px;}
+.third_eye_text{
+    font-size: 1.5rem;
+    text-align: center; 
+    font-family: Raleway;
+    font-weight: 300;  
+}
+.fa-angellist{
+    font-size: 3.75rem;
+    margin-bottom: 5px;}
+.peaceful_text{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 300; }
+.color_change{
+    margin-right:170px;
+    margin-top: 10px;
+}
+.fa-paintbrush{
+    font-size: 3.125rem;
+    margin-bottom: 5px;
+}
+.color_change_text{
+    text-align: center; 
+    font-family: Raleway;
+    font-weight: 300; 
+    font-size: 1.563rem;
+    text-align: center;
+}
+
+.gallery{
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    justify-content: center;    
+}
+.gallery_pic1, .gallery_pic2, .gallery_pic3{
+    width: 19.75rem;
+    height: 12.625rem;
+    margin: 4.563rem 0.5rem 0rem 0.5rem;
+}
+footer{
+    background-color: #1E1A13;
+    height: 102px;
+    width: 1280px;
+    text-align: center;
+    display: flex;
+}
+.footer_text{margin: auto;}
+.footer_text_paragraph{
+    text-align: left; 
+    font-family: Raleway; 
+    font-weight: 300;}
+
+
+
+
