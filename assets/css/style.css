@@ -4,13 +4,14 @@
     
 }
 
-/*Configuración de menú para animación sobre enlaces*/
 .navbar-brand{
     font-family: 'Zen Dots', cursive;
 }
 .body{
     background-color: #F3F3F3;
 }
+
+/*Configuración de menú para animación sobre enlaces*/
 .navbar li {
     font-family: 'Montserrat', sans-serif;;
     font-size: 1.2rem;
