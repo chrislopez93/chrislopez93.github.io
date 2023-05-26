@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(../img/desafio2header3.jpg);
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 10em;
+    position: static;
+    width: 100%;
+    padding-top: 8em;
+    padding-bottom: 5em;
+    margin-bottom: 3em;
+}
+
+h1 {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: rgb(95, 93, 91);
+    border: 3px solid;
+    background-color:cornsilk;
+    padding: 15px;
+
+}
+
+h2{
+    margin-bottom: 1em;
+}
+
+/*body{
+    Desgradado
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    /*background: linear-gradient(rgb(255, 255, 255), rgb(243, 241, 242));
+}*/
+
+table{
+    max-width: 90%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 100px 50px;
+}
+
+.image{
+    width: 15em;
+    position: relative;
+}
+
+.image:hover {
+    width: 16em;
+    transition: 1s;
+
+}
+
+.book_description_cell{
+    border-left: 3px solid rgb(221, 220, 220);
+    padding-left: 2em;
+}
+
+.book_price{
+    margin-top: 1em;
+}
+
+footer{
+    background-color: rgb(243, 213, 200);
+    height: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer p a{
+    text-decoration: none;
+}
+footer p a:hover{
+    font-size: 1.5em;
+    transition: 1s;
+    
+}
