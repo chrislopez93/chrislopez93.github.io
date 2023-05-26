@@ -45,14 +45,14 @@
 /*Fin de Configuración pie de pagina*/
 
 /*Configuración inicio*/
-.card-title{
+.card-title-presentation{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 4rem;
 }
 
-.card-text{
+.card-text-presentation{
     font-family: 'Montserrat', sans-serif;
     text-align:justify;
     font-size: 1rem;
